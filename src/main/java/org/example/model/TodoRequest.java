@@ -9,7 +9,6 @@ import org.springframework.expression.spel.ast.BooleanLiteral;
 @NoArgsConstructor
 @AllArgsConstructor
 public class TodoRequest {
-
     private String title;
     private Long order;
     private Boolean completed;
